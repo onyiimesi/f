@@ -1,0 +1,1216 @@
+@import url('https://fonts.googleapis.com/css2?family=Open+Sans&family=Poppins&display=swap');
+
+*{
+	margin: 0;
+	padding: 0;
+}
+
+a{
+	text-decoration: none !important;
+	color: #fff !important;
+}
+p{
+	font-family: 'Open Sans', sans-serif !important;
+}
+
+.button{
+	width: 180px;
+	height: 50px;
+	text-align: center;
+	background: #15c0de;
+	border: 0;
+	border-radius: 5px;
+	margin: 30px 0;
+	font-size: 15px;
+	font-weight: 600;
+	position: relative;
+	z-index: 99;
+	padding: 10px;
+}
+
+body{
+	box-sizing: border-box;
+	font-family: 'Poppins', sans-serif;
+}
+
+header{
+	width: 100%;
+	height: 100%;
+	margin: 0 auto;
+	padding: 20px 0;
+	background: #313d53;
+}
+header .head i{
+	font-size: 20px;
+}
+header .head i,span{
+	color: #fff;
+	padding: 0 5px 0 0;
+}
+header .head a{
+	padding: 0 20px;
+}
+
+.navbar-toggler{
+	margin: 0 0px !important;
+}
+
+
+.nav{
+	width: 100%;
+	height: 100%;
+	margin: 0 auto;
+	padding: 0px 0;
+	background: #fff;
+}
+.nav .navbar .nav-link{
+	text-transform: uppercase !important;
+	color: #000 !important;
+}
+
+
+.banner{
+	width: 100%;
+	height: 100%;
+	/*background: url("../img/banner.jpg");
+	background-repeat: no-repeat;
+	background-size: cover;*/
+	
+}
+.banner .banner_txt{
+	padding: 80px 0;
+}
+.banner .banner_txt h2{
+	color: #fff;
+	font-size: 50px;
+	font-weight: 600;
+	line-height: 1.3em;
+}
+.banner .banner_txt p{
+	color: #fff;
+	padding: 20px 0;
+	font-weight: 300;
+}
+.banner .banner_txt .button{
+	width: 160px;
+	height: 40px;
+	text-align: center;
+	background: #15c0de;
+	border: 0;
+	border-radius: 5px;
+	margin: 30px 0;
+	font-size: 14px;
+	font-weight: 600;
+}
+
+
+.building{
+	width: 100%;
+	height: 100%;
+	margin: 0 auto;
+	padding: 50px 0;
+}
+
+.building .building_txt h2{
+	font-size: 32px;
+	font-weight: 800;
+}
+.building .building_txt p{
+	font-size: 17px;
+	line-height: 1.8em;
+	padding: 10px 0;
+}
+.building .building_txt ul{
+	margin: 0;
+	padding: 0 20px;
+	list-style: none;
+}
+.building .building_txt ul li{
+	padding: 0 0 8px 0;
+	font-size: 16px;
+	color: #333;
+	font-weight: bold;
+	list-style-image: ;
+}
+
+.building .building_txt ul li::before {
+	content: "\2022";
+    color: #313d53;
+    font-weight: bold;
+    display: inline-block; 
+    width: 1em;
+    margin-left: -0.7em;
+    font-size: 25px;
+}
+
+.building .building_txt .button{
+	width: 160px;
+	height: 50px;
+	text-align: center;
+	background: #15c0de;
+	border: 0;
+	border-radius: 5px;
+	margin: 30px 0;
+	font-size: 15px;
+	font-weight: 600;
+}
+
+
+.services{
+	width: 100%;
+	height: 100%;
+	margin: 0 auto;
+	padding: 50px 0;
+}
+.services .services_title{
+	margin: 0 0 50px 0;
+}
+.services .services_title .line{
+	width: 70px;
+	height: 3px;
+	background: #15c0de;
+	margin: 0 auto;
+}
+.services .services_title span{
+	color: #000;
+	letter-spacing: 0.1em;
+}
+.services .services_title h3{
+	font-weight: 600;
+	font-size: 35px;
+}
+
+.services .service{
+	width: 100%;
+	height: 100%;
+	padding: 20px 30px 10px 30px;
+	box-shadow: 0 1px 3px 2px rgba(0,0,0,0.12), 0 1px 2px rgba(0,0,0,0.24);
+  	transition: all 0.3s cubic-bezier(.25,.8,.25,1);
+  	border-radius: 10px;
+  	margin: 0 0 10px 0;
+  	
+}
+
+.service:hover {
+    box-shadow: 0 6px 4px 4px rgba(0,0,0,0.1), 0 8px 4px rgba(0,0,0,0.1);
+}
+
+.service .icon{
+	margin: 0;
+	padding: 0;
+}
+
+.service .icon i{
+	padding: 0;
+  	transition: 0.3s linear;
+  	font-size: 40px;
+}
+
+.service:hover > .icon i {
+	width: 44px;
+	height: 44px;
+  	background: #15c0de;
+  	border-radius: 100px;
+  	text-align: center;
+  	transform: scale(1.5);
+  	padding: 10px;
+  	font-size: 20px;
+}
+
+.services .service h3{
+	padding: 20px 0 0 0;
+	font-size: 22px;
+}
+.services .service p{
+	padding: 10px 0 0 0;
+	font-size: 16px;
+	line-height: 1.7em;
+	color: #888;
+}
+
+
+
+.brands{
+	width: 100%;
+	height: 100%;
+	background: url("../img/banner.jpg");
+	background-repeat: no-repeat;
+	background-size: cover;
+	padding: 120px 0;
+	position: relative;
+}
+.brands::after{
+	width: 100%;
+	height: 100%;
+	content: "";
+	position: absolute;
+	top: 0;
+	left: 0;
+	right: 0;
+	bottom: 0;
+	opacity: .7;
+	background: #000;
+}
+.brands .brand_txt span{
+	position: relative;
+	z-index: 99;
+	font-size: 20px;
+}
+.brands .brand_txt h2{
+	position: relative;
+	z-index: 99;
+	color: #fff;
+	padding: 20px 0;
+	font-weight: 600;
+	font-size: 38px;
+}
+
+
+.achieve{
+	width: 100%;
+	height: 100%;
+	padding: 20px 0;
+	background: #313d53;
+	position: relative;
+	top: -100px;
+}
+.achieve .achievements h3{
+	font-size: 40px;
+	color: #fff;
+	font-weight: 600;
+}
+
+
+
+
+.how{
+	width: 100%;
+	height: 100%;
+	padding: 50px 0;
+}
+.how .services_title{
+	margin: 10px 0 100px 0;
+}
+.how .services_title h3{
+	font-weight: 600;
+	font-size: 35px;
+}
+.how .services_title .line{
+	width: 70px;
+	height: 3px;
+	background: #15c0de;
+	margin: 0 auto;
+}
+.how .work .one{
+	width: 48px;
+    height: 48px;
+	color: #fff;
+	margin: 0 20px;
+	position: relative;
+	border-radius: 200px;
+	font-size: 35px;
+	font-weight: 600;
+	padding: 20px;
+	background: #15c0de;
+	float: right;
+}
+.how .work .one span{
+	position: absolute;
+	top: 0px;
+	left: 0;
+	right: 0;
+	bottom: 0;
+	text-align: center;
+	padding: 0;
+}
+.how .work ul{
+	margin: 0;
+	padding: 0;
+}
+.how .work ul li{
+	font-size: 20px;
+	font-weight: 600;
+	padding: 0 0 50px 0;
+	list-style: none;
+}
+.how .work .li{
+	width: 300px;
+}
+.how .work_img {
+	width: 100%;
+	height: 100%;
+}
+.how .work_img img{
+	width: 100%;
+	height: 100%;
+}
+
+
+.clients{
+	width: 100%;
+	height: 100%;
+	background: url("../img/banner.jpg");
+	background-repeat: no-repeat;
+	background-size: cover;
+	padding: 50px 0;
+	position: relative;
+}
+.clients::after{
+	width: 100%;
+	height: 100%;
+	content: "";
+	position: absolute;
+	top: 0;
+	left: 0;
+	right: 0;
+	bottom: 0;
+	opacity: .7;
+	background: #000;
+}
+.clients .clients_title h2{
+	color: #fff;
+	position: relative;
+	z-index: 99;
+}
+.clients .clients_title .line{
+	width: 70px;
+	height: 3px;
+	background: #15c0de;
+	margin: 0 auto;
+	position: relative;
+	z-index: 99;
+}
+.clients .client_slider{
+	position: relative;
+	z-index: 99;
+	padding: 100px 0;
+}
+.clients .client_slider div{
+	position: relative;
+	z-index: 99;
+	color: #fff;
+}
+
+
+
+.agents{
+	width: 100%;
+	padding: 100%;
+	padding: 50px 0;
+}
+.agents .agents_title h2{
+	color: #000;
+	font-weight: 600;
+}
+.agents .agents_title .line{
+	width: 70px;
+	height: 3px;
+	background: #15c0de;
+	margin: 0 auto;
+	position: relative;
+	z-index: 99;
+}
+.agents .but .button{
+	width: 140px;
+	height: 50px;
+	text-align: center;
+	background: #15c0de;
+	border: 0;
+	border-radius: 5px;
+	margin: 10px 0;
+	font-size: 15px;
+	font-weight: 600;
+	position: relative;
+	z-index: 99;
+	padding: 10px;
+	text-transform: uppercase;
+}
+
+
+
+.contact{
+	width: 100%;
+	height: 100%;
+	padding: 50px 0;
+	background: #15c0de;
+}
+.contact .contact_title h2{
+	color: #000;
+	font-weight: 600;
+	padding: 30px 0;
+}
+
+.contact input{
+	padding: 8px 20px !important; 
+	outline: none !important;
+}
+
+.contact .button{
+	width: 140px;
+	height: 50px;
+	text-align: center;
+	background: #fff;
+	border: 0;
+	border-radius: 5px;
+	margin: 10px 0;
+	font-size: 15px;
+	position: relative;
+	z-index: 99;
+	padding: 10px;
+	text-transform: uppercase;
+}
+
+
+footer{
+	width: 100%;
+	height: 100%;
+	margin: 0 auto;
+	background: #222;
+	padding: 50px 0;
+}
+footer .foot p{
+	padding: 20px 0;
+	color: #fff;
+	line-height: 1.8em;
+	font-size: 15px;
+}
+footer .foot h3{
+	color: #fff;
+	font-size: 20px;
+	text-transform: uppercase;
+}
+footer .foot ul{
+	margin: 0;
+	padding: 0;
+}
+footer .foot ul li{
+	list-style: none;
+	padding: 20px 0 0 0;
+}
+footer .foot ul li a{
+	color: #fff;
+}
+footer .foot ul li a i{
+	color: #fff !important;
+	padding: 0 10px 0 0;
+}
+footer .foot .stay{
+	color: #fff !important;
+	padding: 20px 0 0 0;
+}
+footer .foot .stay input{
+	border: 1px solid #222;
+	border-radius: 0;
+	padding: 10px 0;
+}
+footer .foot .stay .button{
+	width: 100%;
+	height: 100%;
+	text-align: center;
+	background: #444;
+	border-radius: 0;
+	color: #fff !important;
+	border: 1px solid #fff;
+}
+
+
+.footer{
+	width: 100%;
+	height: 100%;
+	margin: 0 auto;
+	background: #111;
+	padding: 20px 0;
+}
+.footer .copy{
+	padding: 0;
+	margin: 0;
+}
+.footer .copy p{
+	padding: 0;
+	color: #777;
+}
+
+
+
+
+
+
+
+
+
+@media (min-width: 768px) and (max-width: 991px) {
+
+	.banner .banner_txt h2{
+		font-size: 32px;
+	}
+	.banner .banner_txt p{
+		font-size: 18px;
+	}
+	.building .building_txt h2{
+		font-size: 30px;
+		text-align: center;
+	}
+	.building .building_txt p{
+		text-align: center;
+	}
+	.services .services_title span{
+		font-size: 16px;
+	}
+	.services .services_title h3{
+		font-size: 34px;
+	}
+	.service .icon i{
+	  	font-size: 34px;
+	}
+
+	.service:hover > .icon i {
+		width: 36px;
+		height: 36px;
+	  	padding: 8px;
+	  	font-size: 15px;
+	}
+
+	.services .service h3{
+		font-size: 26px;
+	}
+	.services .service p{
+		font-size: 18px;
+	}
+
+	.brands .brand_txt span{
+		font-size: 20px;
+	}
+	.brands .brand_txt h2{
+		font-size: 32px;
+	}
+
+	.achieve .achievements h3{
+		font-size: 36px;
+	}
+
+	.how .services_title h3{
+		font-size: 32px;
+	}
+
+	.how .work_img {
+		width: 100%;
+		height: 100%;
+		margin: 0 60px;
+	}
+
+	.how .work .one{
+		width: 42px;
+	    height: 42px;
+		font-size: 26px;
+	}
+
+	.how .work ul li{
+		font-size: 20px;
+	}
+
+	.clients .clients_title h2{
+		font-size: 32px;
+	}
+	.clients .client_slider div{
+		font-size: 18px;
+	}
+
+	.agents .agents_title h2{
+		font-size: 32px;
+	}
+
+	.contact .contact_title h2{
+		font-size: 32px;
+	}
+
+}
+
+
+
+@media only screen and (max-width: 768px) {
+	header{
+		display: none;
+	}
+}
+
+
+
+
+
+@media only screen and (min-width: 599px) and (max-width: 767px) {
+	.banner .banner_txt h2{
+		font-size: 40px;
+	}
+	.banner .banner_txt p{
+		font-size: 17px;
+	}
+	.building .building_txt h2{
+		font-size: 28px;
+		text-align: center;
+	}
+	.building .building_txt p{
+		text-align: center;
+	}
+	.services .services_title span{
+		font-size: 15px;
+	}
+	.services .services_title h3{
+		font-size: 32px;
+	}
+	.service .icon i{
+	  	font-size: 30px;
+	}
+
+	.service:hover > .icon i {
+		width: 36px;
+		height: 36px;
+	  	padding: 8px;
+	  	font-size: 15px;
+	}
+
+	.services .service h3{
+		font-size: 24px;
+	}
+	.services .service p{
+		font-size: 16px;
+	}
+
+	.brands .brand_txt span{
+		font-size: 18px;
+	}
+	.brands .brand_txt h2{
+		font-size: 28px;
+	}
+
+	.achieve .achievements h3{
+		font-size: 34px;
+	}
+
+	.how .services_title h3{
+		font-size: 28px;
+	}
+
+	.how .work .one{
+		width: 42px;
+	    height: 42px;
+		font-size: 26px;
+	}
+
+	.how .work ul li{
+		font-size: 20px;
+	}
+
+	.clients .clients_title h2{
+		font-size: 26px;
+	}
+	.clients .client_slider div{
+		font-size: 14px;
+	}
+
+	.agents .agents_title h2{
+		font-size: 26px;
+	}
+
+	.contact .contact_title h2{
+		font-size: 24px;
+	}
+}
+
+
+
+
+@media (min-width: 576px) and (max-width: 767px) {
+	.banner .banner_txt h2{
+		font-size: 40px;
+	}
+	.banner .banner_txt p{
+		font-size: 17px;
+	}
+	.building .building_txt h2{
+		font-size: 28px;
+		text-align: center;
+	}
+	.building .building_txt p{
+		text-align: center;
+	}
+	.services .services_title span{
+		font-size: 15px;
+	}
+	.services .services_title h3{
+		font-size: 32px;
+	}
+	.service .icon i{
+	  	font-size: 30px;
+	}
+
+	.service:hover > .icon i {
+		width: 36px;
+		height: 36px;
+	  	padding: 8px;
+	  	font-size: 15px;
+	}
+
+	.services .service h3{
+		font-size: 24px;
+	}
+	.services .service p{
+		font-size: 16px;
+	}
+
+	.brands .brand_txt span{
+		font-size: 18px;
+	}
+	.brands .brand_txt h2{
+		font-size: 28px;
+	}
+
+	.achieve .achievements h3{
+		font-size: 34px;
+	}
+
+	.how .services_title h3{
+		font-size: 28px;
+	}
+
+	.how .work .one{
+		width: 42px;
+	    height: 42px;
+		font-size: 26px;
+	}
+
+	.how .work ul li{
+		font-size: 20px;
+	}
+
+	.clients .clients_title h2{
+		font-size: 26px;
+	}
+	.clients .client_slider div{
+		font-size: 14px;
+	}
+
+	.agents .agents_title h2{
+		font-size: 26px;
+	}
+
+	.contact .contact_title h2{
+		font-size: 24px;
+	}
+}
+
+
+
+
+@media only screen and (max-width: 480px) {
+	.banner .banner_txt h2{
+		font-size: 36px;
+	}
+	.banner .banner_txt p{
+		font-size: 16px;
+	}
+	.building .building_txt h2{
+		font-size: 28px;
+		text-align: center;
+	}
+	.building .building_txt p{
+		text-align: center;
+	}
+	.services .services_title span{
+		font-size: 14px;
+	}
+	.services .services_title h3{
+		font-size: 28px;
+	}
+	.service .icon i{
+	  	font-size: 30px;
+	}
+
+	.service:hover > .icon i {
+		width: 36px;
+		height: 36px;
+	  	padding: 8px;
+	  	font-size: 15px;
+	}
+
+	.services .service h3{
+		font-size: 24px;
+	}
+	.services .service p{
+		font-size: 16px;
+	}
+
+	.brands .brand_txt span{
+		font-size: 18px;
+	}
+	.brands .brand_txt h2{
+		font-size: 28px;
+	}
+
+	.achieve .achievements h3{
+		font-size: 32px;
+	}
+
+	.how .services_title h3{
+		font-size: 28px;
+	}
+
+	.how .work .one{
+		width: 42px;
+	    height: 42px;
+		font-size: 26px;
+	}
+
+	.how .work ul li{
+		font-size: 20px;
+	}
+
+	.clients .clients_title h2{
+		font-size: 26px;
+	}
+	.clients .client_slider div{
+		font-size: 14px;
+	}
+
+	.agents .agents_title h2{
+		font-size: 26px;
+	}
+
+	.contact .contact_title h2{
+		font-size: 24px;
+	}
+}
+
+
+
+@media only screen and (max-width: 425px) {
+	.banner .banner_txt h2{
+		font-size: 34px;
+	}
+	.banner .banner_txt p{
+		font-size: 18px;
+	}
+	.building .building_txt h2{
+		font-size: 28px;
+		text-align: center;
+	}
+	.building .building_txt p{
+		text-align: center;
+	}
+	.services .services_title span{
+		font-size: 14px;
+	}
+	.services .services_title h3{
+		font-size: 28px;
+	}
+	.service .icon i{
+	  	font-size: 30px;
+	}
+
+	.service:hover > .icon i {
+		width: 36px;
+		height: 36px;
+	  	padding: 8px;
+	  	font-size: 15px;
+	}
+
+	.services .service h3{
+		font-size: 24px;
+	}
+	.services .service p{
+		font-size: 16px;
+	}
+
+	.brands .brand_txt span{
+		font-size: 18px;
+	}
+	.brands .brand_txt h2{
+		font-size: 28px;
+	}
+
+	.achieve .achievements h3{
+		font-size: 32px;
+	}
+
+	.how .services_title h3{
+		font-size: 28px;
+	}
+
+	.how .work .one{
+		width: 38px;
+	    height: 38px;
+		font-size: 26px;
+	}
+
+	.how .work ul li{
+		font-size: 18px;
+	}
+
+	.clients .clients_title h2{
+		font-size: 26px;
+	}
+	.clients .client_slider div{
+		font-size: 14px;
+	}
+
+	.agents .agents_title h2{
+		font-size: 26px;
+	}
+
+	.contact .contact_title h2{
+		font-size: 24px;
+	}
+}
+
+
+
+
+@media only screen and (max-width: 375px) {
+	.banner .banner_txt h2{
+		font-size: 30px;
+	}
+	.banner .banner_txt p{
+		font-size: 17px;
+	}
+	.building .building_txt h2{
+		font-size: 28px;
+		text-align: center;
+	}
+	.building .building_txt p{
+		text-align: center;
+	}
+	.services .services_title span{
+		font-size: 14px;
+	}
+	.services .services_title h3{
+		font-size: 28px;
+	}
+	.service .icon i{
+	  	font-size: 30px;
+	}
+
+	.service:hover > .icon i {
+		width: 36px;
+		height: 36px;
+	  	padding: 8px;
+	  	font-size: 15px;
+	}
+
+	.services .service h3{
+		font-size: 22px;
+	}
+	.services .service p{
+		font-size: 15px;
+	}
+
+	.brands .brand_txt span{
+		font-size: 18px;
+	}
+	.brands .brand_txt h2{
+		font-size: 28px;
+	}
+
+	.achieve .achievements h3{
+		font-size: 32px;
+	}
+
+	.how .services_title h3{
+		font-size: 28px;
+	}
+
+	.how .work .one{
+		width: 38px;
+	    height: 38px;
+		font-size: 26px;
+	}
+
+	.how .work ul li{
+		font-size: 18px;
+	}
+
+	.clients .clients_title h2{
+		font-size: 26px;
+	}
+	.clients .client_slider div{
+		font-size: 14px;
+	}
+
+	.agents .agents_title h2{
+		font-size: 26px;
+	}
+
+	.contact .contact_title h2{
+		font-size: 24px;
+	}
+}
+
+
+
+@media only screen and (max-width: 320px) {
+	.banner .banner_txt h2{
+		font-size: 28px;
+	}
+	.banner .banner_txt p{
+		font-size: 16px;
+	}
+	.building .building_txt h2{
+		font-size: 28px;
+		text-align: center;
+	}
+	.building .building_txt p{
+		text-align: center;
+	}
+	.services .services_title span{
+		font-size: 14px;
+	}
+	.services .services_title h3{
+		font-size: 28px;
+	}
+	.service .icon i{
+	  	font-size: 30px;
+	}
+
+	.service:hover > .icon i {
+		width: 36px;
+		height: 36px;
+	  	padding: 8px;
+	  	font-size: 15px;
+	}
+
+	.services .service h3{
+		font-size: 22px;
+	}
+	.services .service p{
+		font-size: 15px;
+	}
+
+	.brands .brand_txt span{
+		font-size: 18px;
+	}
+	.brands .brand_txt h2{
+		font-size: 26px;
+	}
+
+	.achieve .achievements h3{
+		font-size: 30px;
+	}
+
+	.how .services_title h3{
+		font-size: 26px;
+	}
+
+	.how .work .one{
+		width: 38px;
+	    height: 38px;
+		font-size: 26px;
+	}
+
+	.how .work ul li{
+		font-size: 18px;
+	}
+
+	.clients .clients_title h2{
+		font-size: 26px;
+	}
+	.clients .client_slider div{
+		font-size: 14px;
+	}
+
+	.agents .agents_title h2{
+		font-size: 26px;
+	}
+
+	.contact .contact_title h2{
+		font-size: 24px;
+	}
+}
+
+
+
+
+@media only screen and (min-width: 280px) and (max-width: 310px) {
+	.banner .banner_txt h2{
+		font-size: 26px;
+	}
+	.banner .banner_txt p{
+		font-size: 15px;
+	}
+	.building .building_txt h2{
+		font-size: 26px;
+		text-align: center;
+	}
+	.building .building_txt p{
+		text-align: center;
+	}
+	.services .services_title span{
+		font-size: 14px;
+	}
+	.services .services_title h3{
+		font-size: 26px;
+	}
+	.service .icon i{
+	  	font-size: 30px;
+	}
+
+	.service:hover > .icon i {
+		width: 36px;
+		height: 36px;
+	  	padding: 8px;
+	  	font-size: 15px;
+	}
+
+	.services .service h3{
+		font-size: 20px;
+	}
+	.services .service p{
+		font-size: 14px;
+	}
+
+	.brands .brand_txt span{
+		font-size: 18px;
+	}
+	.brands .brand_txt h2{
+		font-size: 26px;
+	}
+
+	.achieve .achievements h3{
+		font-size: 30px;
+	}
+
+	.how .services_title h3{
+		font-size: 26px;
+	}
+
+	.how .work .one{
+		width: 38px;
+	    height: 38px;
+		font-size: 26px;
+	}
+
+	.how .work ul li{
+		font-size: 18px;
+	}
+
+	.clients .clients_title h2{
+		font-size: 26px;
+	}
+	.clients .client_slider div{
+		font-size: 14px;
+	}
+
+	.agents .agents_title h2{
+		font-size: 26px;
+	}
+
+	.contact .contact_title h2{
+		font-size: 24px;
+	}
+}
+
+
+
+
+
+
+
+
+
